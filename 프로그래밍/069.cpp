@@ -1,4 +1,4 @@
-//프로그래밍 p.69 <오버플로우 언더플로우> 
+//프로그래밍 p.69 <오버플로우 언더플로우>
 
 #include <stdio.h>
 #include <limits.h>
