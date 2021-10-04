@@ -4,11 +4,11 @@
 int main()
 {
 	int i = 680;
-	printf("10진수=");
+	printf("10진수 = ");
 	printf("%d\n",i);
-	printf("8진수=");
+	printf("8진수 = ");
 	printf("%o\n",i);
-	printf("16진수=");
+	printf("16진수 = ");
 	printf("%x\n",i);
 	return 0;
 }
@@ -19,6 +19,6 @@ int main()
 //
 //
 //[OUTPUT]
-//10진수=680
-//8진수=1250
-//16진수=2a8
+//10진수 = 680
+//8진수 = 1250
+//16진수 = 2a8
