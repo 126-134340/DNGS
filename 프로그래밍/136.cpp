@@ -1,0 +1,24 @@
+//ÇÁ·Î±×·¡¹Ö p.136 <ÇÇº¸³ªÄ¡ ¼ö¿­(Åä³¢)>
+
+#include <stdio.h>
+int fibo(int num);
+int main(void){
+	int num;
+	printf("\n°³¿ù ¼ö ÀÔ·Â: ");
+	scanf("%d", &num);
+	printf("ÃÑ Åä³¢ ½Ö: %d", fibo(num+1));
+	return 0;
+}
+int fibo(int num){
+	if(num==0) return 0;
+	else if (num==1) return 1;
+	else return fibo(num-1) + fibo(num-2);
+}
+
+
+//[INPUT]
+//°³¿ù ¼ö ÀÔ·Â: 10
+//
+//
+//[OUTPUT]
+//ÃÑ Åä³¢ ½Ö: 89
