@@ -1,1 +1,1 @@
-# DNGS-SW
+# DNGS
